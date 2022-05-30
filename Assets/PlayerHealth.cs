@@ -14,7 +14,7 @@ public class PlayerHealth : MonoBehaviour
     bool HasDied;
     bool Invun;
     bool DeathMenuAnim;
-    int DeathCount = 0;
+    int DeathCount = 23;
     [SerializeField] CardInfo[] ListOfCards;
     [SerializeField] GameObject DeathMenu, CardHolder, CardPrefab;
     [SerializeField] GameObject[] CardsSpots;
