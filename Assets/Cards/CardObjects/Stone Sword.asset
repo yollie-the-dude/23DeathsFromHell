@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba00ae9367f2bbe4fbd6331ea577780c, type: 3}
+  m_Name: Stone Sword
+  m_EditorClassIdentifier: 
+  CardName: Stone Blade
+  Thistype: 0
+  cooldown: 0.2
+  isAttackCard: 1
+  CardSprite: {fileID: -1587919324, guid: ca0fa2260c151a9409a8a285166c4129, type: 3}
+  turnSpriteDiagonal: 1
+  Description: Adds its own stats to HELD melee weapons
+  Soundfx: {fileID: 8300000, guid: 3c02801f84d4e054abd29fca885cded2, type: 3}
+  Volume: 1
+  OneshotSound: 0
+  Durability: 1
+  Damage: 2
+  RepeatAmount: 1
+  Charged: 0
+  ChargeIncreasesRepeat: 0
+  RepeatCooldown: 0.02
+  Recoil: 0
+  Proj: 2
+  ProjectileObj: {fileID: 4539435441039255465, guid: 20235c2a998c0b94c9bae0f953df3cae, type: 3}
+  spread: 0
+  ProjectileSpeed: 70
+  RangeOrSize: 2
+  ApplyAdditionalCards: 0
+  ApplyBuffs: 1
+  durabilityIncrease: 1
+  AdditionalCards: []
+  StatApply: 0
+  OnlyApplyToHeld: 1
+  ApplyToSpecificName: 0
+  NameToApplyTo: 

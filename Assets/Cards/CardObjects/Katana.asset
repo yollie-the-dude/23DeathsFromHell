@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba00ae9367f2bbe4fbd6331ea577780c, type: 3}
+  m_Name: Katana
+  m_EditorClassIdentifier: 
+  CardName: Katana
+  Thistype: 0
+  cooldown: 0.5
+  isAttackCard: 1
+  CardSprite: {fileID: 1837446007, guid: ca0fa2260c151a9409a8a285166c4129, type: 3}
+  turnSpriteDiagonal: 1
+  Description: Deals high damage
+  Soundfx: {fileID: 8300000, guid: 689ef78b8bf64884b9d586aac306a8b0, type: 3}
+  Volume: 1
+  OneshotSound: 1
+  Durability: 2
+  Damage: 6
+  RepeatAmount: 2
+  Charged: 0
+  ChargeIncreasesRepeat: 0
+  RepeatCooldown: 0.01
+  Recoil: -100
+  Proj: 2
+  ProjectileObj: {fileID: 4539435441039255465, guid: a7baee9efda370c439b04323ce8ee364, type: 3}
+  spread: 0.02
+  ProjectileSpeed: 60
+  RangeOrSize: 2
+  ApplyAdditionalCards: 1
+  ApplyBuffs: 0
+  durabilityIncrease: 0
+  AdditionalCards: []
+  StatApply: 0
+  OnlyApplyToHeld: 0
+  ApplyToSpecificName: 0
+  NameToApplyTo: 

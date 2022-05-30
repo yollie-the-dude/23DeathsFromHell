@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba00ae9367f2bbe4fbd6331ea577780c, type: 3}
+  m_Name: Armoury Crate
+  m_EditorClassIdentifier: 
+  CardName: Armoury Crate
+  Thistype: 3
+  cooldown: 0.8
+  isAttackCard: 0
+  CardSprite: {fileID: 2035771687, guid: ca0fa2260c151a9409a8a285166c4129, type: 3}
+  turnSpriteDiagonal: 0
+  Description: Adds 2 sheaths and 2 whetstones
+  Soundfx: {fileID: 8300000, guid: dddc093fa72147b40b14cbad8643178c, type: 3}
+  Volume: 1
+  OneshotSound: 0
+  Durability: 1
+  Damage: 0
+  RepeatAmount: 0
+  Charged: 0
+  ChargeIncreasesRepeat: 0
+  RepeatCooldown: 0
+  Recoil: 0
+  Proj: 0
+  ProjectileObj: {fileID: 0}
+  spread: 0
+  ProjectileSpeed: 60
+  RangeOrSize: 0
+  ApplyAdditionalCards: 1
+  ApplyBuffs: 0
+  durabilityIncrease: 0
+  AdditionalCards:
+  - {fileID: 11400000, guid: 78231835c8361a943ab0936db8676c9d, type: 2}
+  - {fileID: 11400000, guid: 78231835c8361a943ab0936db8676c9d, type: 2}
+  - {fileID: 11400000, guid: 1cef62d7c5c70d644a028a83e11cef78, type: 2}
+  - {fileID: 11400000, guid: 1cef62d7c5c70d644a028a83e11cef78, type: 2}
+  StatApply: 1
+  OnlyApplyToHeld: 0
+  ApplyToSpecificName: 0
+  NameToApplyTo: 
